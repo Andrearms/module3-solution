@@ -1,0 +1,135 @@
+body {
+	font-size: 16px;
+	color: #fff;
+	background-color: #61122f;
+	font-family: 'Oxygen', sans-serif;
+}
+
+/**HEADER**/
+#header-nav {
+	background-color: #f6b319;
+	border-radius: 0;
+	border: 0;
+	height: 60px;
+}
+
+/**TEXT HEADER**/
+#text-nav {
+	font-size: 25px;
+	font-weight: bold;
+}
+
+* {
+		box-sizing: border-box;
+	}
+	h1 {
+		margin-bottom: 15px;
+	}
+	p {
+		font-family: Helvetica;
+		color: black;
+	}
+	.center {
+		text-align: center;
+		padding-bottom: 30px;
+		padding-top: 50px;
+
+	}
+
+	.description {
+
+		padding: 10px;
+
+	}
+
+	.column1 {
+		border: 2px solid black;
+		background-color: white;
+		position: relative;
+		padding-top: 50px;
+	}
+	.column2 {
+		border: 2px solid black;
+		background-color: white;
+		position: relative;
+		padding-top: 50px;
+	}
+	.column3 {
+		border: 2px solid black;
+		background-color: white;
+		position: relative;
+		padding-top: 50px;
+	}
+
+	.title1 {
+		position: absolute;
+		top: 0px;
+		right: 0px;
+		padding-top: 5px;
+		padding-bottom: 5px;
+		padding-right: 30px;
+		padding-left: 30px;
+		border-bottom: 2px solid black;
+		border-left: 2px solid black;
+		background-color: pink;
+		font-weight: bold;
+	}
+	.title2 {
+		position: absolute;
+		top: 0px;
+		right: 0px;
+		padding-top: 5px;
+		padding-bottom: 5px;
+		padding-right: 30px;
+		padding-left: 30px;
+		border-bottom: 2px solid black;
+		border-left: 2px solid black;
+		background-color: red;
+		color: white;
+		font-weight: bold;
+	}
+	.title3 {
+		position: absolute;
+		top: 0px;
+		right: 0px;
+		padding-top: 5px;
+		padding-bottom: 5px;
+		padding-right: 30px;
+		padding-left: 30px;
+		border-bottom: 2px solid black;
+		border-left: 2px solid black;
+		background-color: yellow;
+		font-weight: bold;
+	}
+
+
+@media (min-width: 992px) {
+	.column1, .column2, .column3 {
+		float:left;
+		width: 30%;
+		margin: 10px;
+	}
+
+}
+
+@media (min-width: 768px) and (max-width: 991px){
+	.column1, .column2 {
+		float:left;
+		width: 45%;
+		margin: 10px;
+		
+	}
+	.column3 {
+		float: left;
+		width: 92%;
+		margin: 10px;
+	}
+}
+
+@media (max-width: 767px){
+	.column1, .column2, .column3 {
+		float: left;
+		width: 92%;
+		margin: 10px;
+	}
+}
